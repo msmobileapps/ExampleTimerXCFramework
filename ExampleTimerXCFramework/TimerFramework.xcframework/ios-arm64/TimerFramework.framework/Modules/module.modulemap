@@ -1,0 +1,11 @@
+framework module TimerFramework {
+  umbrella header "TimerFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module TimerFramework.Swift {
+    header "TimerFramework-Swift.h"
+    requires objc
+}
